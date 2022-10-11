@@ -1,0 +1,34 @@
+.EachCards {
+    width: 19rem;
+    margin-right: 7px;
+    background-color: rgb(150, 150, 150);
+    margin-bottom: 8px;
+}
+
+.course-text {
+    margin-bottom: 9px;
+}
+
+.course-text p {
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+
+
+.quiz-btn {
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-size: 19px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: bisque;
+    font-weight: 600;
+}

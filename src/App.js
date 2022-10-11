@@ -15,6 +15,7 @@ function App() {
       children: [
         {
           path: '/',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Home></Home>
         },
         {
@@ -26,7 +27,8 @@ function App() {
           element: <Statistics></Statistics>
         }
       ]
-    }
+    },
+    { path: '*', element: <div>This page is not found</div> }
   ])
   return (
     <div>
