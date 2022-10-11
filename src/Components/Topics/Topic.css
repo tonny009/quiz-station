@@ -32,3 +32,7 @@
     color: bisque;
     font-weight: 600;
 }
+
+.quiz-btn:hover {
+    background-color: rgb(214, 76, 76);
+}

@@ -1,0 +1,43 @@
+.qstn-part {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 0px;
+    border-right: 0px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: rgb(194, 191, 191);
+}
+
+.qstn-part li {
+    font-weight: 600;
+}
+
+
+.icon-btn {
+    border: 0px;
+    margin-right: 0px;
+}
+
+.option-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status_part {
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 15px;
+    background-color: rgb(90, 216, 174);
+    height: 90px;
+    width: 110px;
+    margin-left: 90px;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 3px solid rgb(49, 36, 36);
+}

@@ -1,0 +1,13 @@
+.option-part {
+    /* display: flex; */
+}
+
+.option-btn {
+    margin-bottom: 10px;
+    background-color: rgb(229, 231, 220);
+    border-radius: 8px;
+}
+
+.option-btn:hover {
+    background-color: rgb(175, 175, 248);
+}

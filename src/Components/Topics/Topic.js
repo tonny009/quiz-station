@@ -17,7 +17,7 @@ const Topic = (props) => {
 
 
                 <div className='quiz-btn'>
-                    <Link className='btn-link'>Take Quiz</Link>
+                    <Link to={`/quiz/${name}/${id}`} className='btn-link'>Take Quiz</Link>
                 </div>
 
 
