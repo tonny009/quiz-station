@@ -1,0 +1,38 @@
+.header-container {
+    background-color: rgb(231, 143, 143);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.list {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(229, 196, 196);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.list:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+.menu-container li {
+    margin: 9px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.title h2 {
+    font-size: xx-large;
+    font-weight: 700;
+}
