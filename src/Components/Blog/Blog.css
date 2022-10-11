@@ -1,0 +1,17 @@
+.qstn-answr-container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    text-align: justify;
+    /* margin: 50px; */
+}
+
+@media only screen and (max-width:888px) {
+    .qstn-answr-container {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        text-align: justify;
+        /* margin: 50px; */
+    }
+}
