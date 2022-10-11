@@ -1,3 +1,16 @@
 .cards-container {
     display: grid;
 }
+
+.slide_pic p {
+    color: black;
+}
+
+.slide_pic img {
+    height: 500px;
+    opacity: .6;
+}
+
+.title-pic {
+    margin-bottom: 10px;
+}

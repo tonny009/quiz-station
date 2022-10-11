@@ -34,5 +34,6 @@
 }
 
 .quiz-btn:hover {
-    background-color: rgb(214, 76, 76);
+    background-color: rgb(145, 184, 241);
+    color: black;
 }
