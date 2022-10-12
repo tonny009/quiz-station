@@ -9,6 +9,6 @@ Project Description:
 -	Also there is a Blog section with some question answers and a Statistics section which shows a Bar Chart based on Course topic and Total question number . 
 -	During vising different pages it perfectly maintains dynamic routes without reloading.
 
-Live website link:
+Live website link: https://phenomenal-kataifi-f2539f.netlify.app/
 
 

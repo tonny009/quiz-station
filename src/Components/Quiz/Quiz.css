@@ -1,0 +1,14 @@
+.topic-title {
+    background-color: rgb(231, 205, 205);
+    width: 400px;
+    height: 60px;
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 9px;
+    border: 3px solid rgb(59, 29, 29);
+    border-radius: 7px;
+}
+
+.cmn-back {
+    background-color: rgb(197, 197, 197);
+}

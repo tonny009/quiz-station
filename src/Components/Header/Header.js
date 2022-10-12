@@ -19,7 +19,7 @@ const Header = () => {
                     <li className='nav-item '>
                         <NavLink style={({ isActive }) =>
                             isActive ? activeStyle : undefined
-                        } className='list' to='/'>Home
+                        } className='list' to='/home'>Home
                         </NavLink>
                     </li>
                     <li className='nav-item'>

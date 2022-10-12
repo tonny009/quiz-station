@@ -17,7 +17,12 @@ function App() {
       children: [
         {
           path: '/',
-          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
+          // loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),(No need as I used context api)
+          element: <Home></Home>
+        },
+        {
+          path: '/home',
+          // loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),(No need as I used context api)
           element: <Home></Home>
         },
         {

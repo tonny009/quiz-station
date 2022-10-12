@@ -11,7 +11,7 @@ const Blog = () => {
     { id: 3, qstn: 'Write about useRef Hook', ans: 'The useRef Hook allows you to persist values between renders.It can be used to store a mutable value that does not cause a re-render when updated.It can be used to access a DOM element directly.If we tried to count how many times our application renders using the useState Hook, we would be caught in an infinite loop since this Hook itself causes a re-render.To avoid this, we can use the useRef Hook.' }
     ]
     return (
-        <div className='container qstn-answr-container '>
+        <div className='container qstn-answr-container cmn-back'>
             {
                 qstnAns.map(question => <QuestionAns qstn={question} key={question.id} ></QuestionAns>)
             }

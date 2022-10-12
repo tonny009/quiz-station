@@ -35,7 +35,8 @@ const Question = (props) => {
         });
     }
     return (
-        <div >
+        <div className='container'>
+
             <div className='qstn-part'>
 
                 <div><li>{sliced}</li></div>
