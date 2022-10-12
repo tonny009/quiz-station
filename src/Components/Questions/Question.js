@@ -9,6 +9,8 @@ import 'react-toastify/dist/ReactToastify.css';
 const Question = (props) => {
     const { options, id, question, correctAnswer } = props.eachQuestion;
     let qstn_id = id;
+
+    let sliced = question.replace(/(<([^>]+)>)/ig, ''); //<p> tag removed from api questions
     const getanswer = (ans) => {
         let statusMsg = document.getElementById(id);
         if (ans === correctAnswer) {
@@ -35,7 +37,8 @@ const Question = (props) => {
     return (
         <div >
             <div className='qstn-part'>
-                <div><li>{question}</li></div>
+
+                <div><li>{sliced}</li></div>
                 <div><button onClick={iconMsgShow} className='icon-btn'><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></button></div>
                 <ToastContainer></ToastContainer>
             </div>
