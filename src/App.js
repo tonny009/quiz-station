@@ -37,7 +37,7 @@ function App() {
         }
       ]
     },
-    { path: '*', element: <div>This page is not found</div> }
+    { path: '*', element: <div className='not-found container'>Sorry ,This page is not found</div> }
   ])
   return (
     <div>

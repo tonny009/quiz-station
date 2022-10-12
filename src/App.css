@@ -28,10 +28,20 @@
   color: #61dafb;
 }
 
+.not-found {
+  background-color: #282c34;
+  color: azure;
+  text-align: center;
+  height: 80px;
+  font-size: x-large;
+  padding: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
