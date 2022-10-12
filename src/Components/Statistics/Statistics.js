@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import './Statistics.css'
 // import React, { PureComponent } from 'react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { CoursesContext } from '../../layout/Main';
 
 const Statistics = () => {
-    const courseData = useLoaderData();
-    const { data } = courseData;
-    console.log(data);
+    const courseData = useContext(CoursesContext);
+    // console.log(courseData)
     return (
         <div className='stat container'>
 
-            <BarChart width={430} height={450} data={data}>
+            <BarChart width={430} height={450} data={courseData}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
                 <YAxis />

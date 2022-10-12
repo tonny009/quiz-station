@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Topic from '../Topics/Topic';
 import pic from '../../images/quizTime.png'
 import picture from '../../images/quix.jpeg'
 import './Home.css';
+import { CoursesContext } from '../../layout/Main';
 
 const Home = () => {
-    const topics = useLoaderData();
-    const { data } = topics;
+    const topics = useContext(CoursesContext); //got the data using context api
+
     return (
 
         <div className='container '>
@@ -24,7 +25,7 @@ const Home = () => {
             </div>
             < div className='row justify-content-center' >
                 {
-                    data.map(topic => <Topic key={data.id} topic={topic}></Topic>)
+                    topics.map(topic => <Topic key={topic.id} topic={topic}></Topic>)
                 }
             </div >
         </div >
